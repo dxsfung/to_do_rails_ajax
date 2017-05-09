@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.3.1'
 gem 'rails'
 gem 'pg'
 gem 'sass-rails'
@@ -12,6 +12,7 @@ gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
 gem 'chartkick'
 gem 'groupdate'
+gem 'json', github: 'flori/json', branch: 'v1.8'
 
 group :development do
   gem 'better_errors'
